@@ -1,6 +1,6 @@
 # Points:
 
-- I have created 2 .bat files. We have to create two tasks for both the .bat files in task scheduler
+- I have created 2 .bat files. We have to create two tasks for both the .bat files in task scheduler.
 
   - 1. First .bat file is pgres_to_file.bat . The file is used to take the backup of postgres database to the file location.
   - 2. Second one is file_to_s3.bat . The file is used to copy the files in file location to aws s3 location. Also in this bat file the URI stands for the unique resource identifier of the bucket where we want to dump our data.
